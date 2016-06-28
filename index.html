@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planète de plaisir - your favourite shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id = "globalPos">
+<div id="header_top">
+    <div class="icon_logo">
+        <img src="images/logo_top.png" alt="Logo">
+        <form action="">
+            <input type = "text" id="search_fld" maxlength="50" value="Search..." placeholder=""
+            onmousedown="active()" onblur="inactive()">
+            <input type="button" id="search_btn" value="Go!" onclick="searchHighlight()">
+        </form>
+    </div>
+</div>
+<div id = "listing_items">
+    <div id="listing_item_1">
+        <img src="images/bag0001.jpg" id="bag0001" align="left">
+    </div>
+    <div id="listing_item_2">
+        <img src="images/jeans0001.jpg" id="jeans0001" align="left">
+    </div>
+    <div id="listing_item_3">
+        <img src="images/shoes0001.jpg" id="shoes0001" align="left">
+    </div>
+</div>
+<script src="search.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
